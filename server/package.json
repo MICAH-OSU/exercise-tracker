@@ -1,0 +1,19 @@
+{
+  "name": "exercises_rest",
+  "version": "1.0.0",
+  "description": "Express + MongoDB REST API for the Exercise Tracker",
+  "main": "exercises_controller.mjs",
+  "scripts": {
+    "start": "node exercises_controller.mjs",
+    "dev": "nodemon exercises_controller.mjs"
+  },
+  "author": "Micah Ahn",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^8.15.0",
+    "nodemon": "^3.1.10"
+  }
+}
